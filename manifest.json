@@ -1,0 +1,9 @@
+{
+    "name" : "Simple Kanban Board",
+    "start_url": "/?home=true",
+    "icons": [],
+    "theme_color": "#c4f1ff",
+    "background_color": "#8dc5d7",
+    "display" : "fullscreen",
+    "orientation" : "protrait"
+}
