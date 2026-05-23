@@ -100,11 +100,11 @@ html{
 }
 #inprogressArea{
     background-color: rgb(255, 203, 143);
-    border: solid 2px rgb(219, 179, 130);
+    border: solid 2px rgb(211, 168, 115);
 }
 .progressheader{
     background-color: rgb(255, 203, 143);
-    border: solid 2px rgb(219, 179, 130);
+    border: solid 2px rgb(211, 168, 115);
 }
 .doneheader{
     border: solid 2px rgb(125, 207, 109);
