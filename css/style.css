@@ -37,8 +37,8 @@ html{
     border-radius: 0.5em;
 }
 .area{
-    background-color: bisque;
-    border: solid 2px rgb(219, 179, 130);
+    /* background-color: bisque;
+    border: solid 2px rgb(219, 179, 130); */
     width: 100%;
     border-bottom-left-radius: 0.5em;
     border-bottom-right-radius: 0.5em;
@@ -93,13 +93,26 @@ html{
     border: solid 2px rgb(157, 130, 219);
     background-color: rgb(214, 196, 255);
 }
-.doneheader{
-    border: solid 2px rgb(125, 207, 109);
-    background-color: rgb(208, 255, 196);
+
+#tasksArea{
+    border: solid 2px rgb(157, 130, 219);
+    background-color: rgb(214, 196, 255);
+}
+#inprogressArea{
+    background-color: rgb(255, 203, 143);
+    border: solid 2px rgb(219, 179, 130);
 }
 .progressheader{
     background-color: rgb(255, 203, 143);
     border: solid 2px rgb(219, 179, 130);
+}
+.doneheader{
+    border: solid 2px rgb(125, 207, 109);
+    background-color: rgb(208, 255, 196);
+}
+#doneArea{
+    border: solid 2px rgb(125, 207, 109);
+    background-color: rgb(208, 255, 196);
 }
 
 .deleteButtton{
