@@ -1,0 +1,133 @@
+:root{
+    --primary-font-color : #2c3e50; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: var(--primary-font-color);
+    font-size: 1.0em; /* ~16px standart browsersettings*/
+    line-height: 1.2em;
+    box-sizing: border-box;  
+}
+
+html{
+    background-color: #c4f1ff;
+
+    background-color: #c4f1ff;
+    opacity: 0.8;
+    background: radial-gradient(circle, transparent 20%, #c4f1ff 20%, #c4f1ff 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #c4f1ff 20%, #c4f1ff 80%, transparent 80%, transparent) 15px 15px, linear-gradient(#8dc5d7 1.2000000000000002px, transparent 1.2000000000000002px) 0 -0.6000000000000001px, linear-gradient(90deg, #8dc5d7 1.2000000000000002px, #c4f1ff 1.2000000000000002px) -0.6000000000000001px 0;
+    background-size: 30px 30px, 30px 30px, 15px 15px, 15px 15px;
+}
+
+.wrapper{
+    /* background-color: aqua; */
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin: 1em;
+    padding: 0.25em;
+    border-radius: 0.5em;
+}
+.area{
+    background-color: bisque;
+    border: solid 2px rgb(219, 179, 130);
+    width: 100%;
+    border-radius: 0.5em;
+    width: 320px;
+    padding: 0.2em;
+    min-height: 2.25em;
+    box-shadow: 0px 5px 8px 2px rgba(0,0,0,0.27);
+}
+
+.card h3{
+    /* background-color: bisque; */
+    /* border: dashed 2px rgb(219, 179, 130); */
+    box-shadow: 0px 5px 8px 2px rgba(0,0,0,0.27);
+    border-radius: 0.5em;
+    padding-top: 0.1em;
+    padding: 0.2em;
+    margin-bottom: 0.2em;
+    display: flex;
+    min-height: 2.6em;
+    justify-content: space-between;
+}
+
+
+.task{
+    padding: 0.215em;
+    /* background-color: white; */
+    background-color: rgb(255, 241, 224);
+    border-radius: 0.5em;
+    border: 1px solid black;
+    height: 2.5em;
+    margin-top: 0.2em;
+}
+.addTaskButton{
+    cursor: pointer;
+    position: sticky;
+    right: 0;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 0.3em;
+}
+.addTaskButton:active{
+    transform: scale(0.9);
+}
+
+.taskheader{
+    border: solid 2px rgb(157, 130, 219);
+    background-color: rgb(214, 196, 255);
+}
+.doneheader{
+    border: solid 2px rgb(125, 207, 109);
+    background-color: rgb(208, 255, 196);
+}
+.progressheader{
+    background-color: rgb(255, 203, 143);
+    border: solid 2px rgb(219, 179, 130);
+}
+
+.deleteButtton{
+    background-color: beige;
+    border: solid 2px #8dc5d7;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 2em;
+    box-shadow: 0px 5px 8px 2px rgba(0, 0, 0, 0.425);
+}
+
+/* from mobile to desktop */
+@media (min-width:480px){
+    
+}
+@media (min-width:768px){
+
+}
+@media (max-width:1080px){
+    .wrapper{
+        flex-direction: column;
+    }
+    .area{
+        width: 100%;
+    }
+
+}
+
+/* from desktop to mobile */
+/* @media (max-width:1024px){
+}
+
+@media (max-width:768px){
+} */

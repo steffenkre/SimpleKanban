@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <template id="tasktemplate">
+            <div class="task" id="task" draggable="true" contenteditable="true">
+                New Task
+            </div>
+        </template>
+        <!-- Tasks -->
+         <div class="card tasks">
+            
+             <h3 class="taskheader">Tasks: <button class="addTaskButton" id="addTaskButton">📄</button></h3>
+             <div class="area" id="tasksArea" dropzone="">
+                 <!-- <div class="task" id="task" draggable="true" contenteditable="true">
+                     Lorem Ipsum
+                 </div> -->
+             </div>
+         </div>
+        
+        <!-- In progress -->
+         <div class="card inprogress">
+             <h3 class="progressheader">In Progress:</h3>
+             <div class="area" id="inprogressArea">
+             </div>
+         </div>
+        
+        <!-- Done -->
+        <div class="card done ">
+             <h3 class="doneheader">Done:</h3>
+             <div class="area" id="doneArea">
+             </div>
+         </div>
+    
+    </div>
+
+    <script defer src="js/app.js"></script>
+    <div class="deleteButtton" id="deleteButton">
+        🗑️
+    </div>
+</body>
+</html>
