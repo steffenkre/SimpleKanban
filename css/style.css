@@ -65,10 +65,10 @@ html{
     padding: 0.215em;
     /* background-color: white; */
     background-color: rgb(255, 241, 224);
-    border-radius: 0.5em;
+    border-radius: 0.35em;
     border: 1px solid black;
     /* height: 2.5em; */
-    margin-top: 0.2em;
+    margin-bottom: 0.2em;
 }
 .addTaskButton{
     cursor: pointer;
